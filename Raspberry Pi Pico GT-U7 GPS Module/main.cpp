@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include "TinyGPS++.h"
 
-TinyGPSPlus gps;        /* Instantiate GPS object */
-int gpsBaudRate = 9600; /* Default baud rate */
+TinyGPSPlus gps;        /* Instantiate GPS object from TinyGPS++ library */
+int gpsBaudRate = 9600; /* Default GPS operating baud rate */
 
 /* GPS RX to Pico UART1 TX, GPS TX to Pico UART1 RX */
 /* Open GPIO Pin 8 and Pin 9 for Serial2 communication (UART0 = Serial1, UART1 = Serial2) */
@@ -13,8 +13,8 @@ double launchSiteLatitude = 35.34678489;
 double launchSiteLongitude = -117.80820611;
 
 void setup() {
-  Serial.begin(115200); /* Opens serial monitor port */
-  Serial2.begin(gpsBaudRate); /* Opens Serial2 communication port */
+  Serial.begin(115200); /* Opens serial port for Serial Monitor communication in IDE */
+  Serial2.begin(gpsBaudRate); /* Opens Serial2 communication port for GPS module communication */
   Serial.println("GPS Module starting.");
 }
 
