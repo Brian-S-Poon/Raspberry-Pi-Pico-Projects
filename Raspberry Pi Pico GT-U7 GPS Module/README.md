@@ -2,6 +2,8 @@
 
 An embedded software C++ application to receive and encode GPS NMEA data from the GT-U7 GPS module.
 
+![alt text](https://github.com/Brian-S-Poon/Raspberry-Pi-Pico-Projects/blob/main/Raspberry%20Pi%20Pico%20GT-U7%20GPS%20Module/images/GPS_Module1.JPG)
+
 ## Required hardware
 1x Raspberry Pi Pico <br>
 1x Breadboard (Optional) <br>
