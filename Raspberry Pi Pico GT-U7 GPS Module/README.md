@@ -14,7 +14,7 @@ An embedded software C++ application to receive and encode GPS NMEA data from th
 Jumper wires of your choice depending on your setup (M/M) (M/F) (F/F)
 
 ## Required software
-PlatformIO IDE (A plugin for Visual Studio Code) https://platformio.org/ <br>
+PlatformIO IDE. A plugin for Visual Studio Code. https://platformio.org/ <br>
 TinyGPS++ library http://arduiniana.org/libraries/tinygpsplus/
 
 ## Hardware connections
