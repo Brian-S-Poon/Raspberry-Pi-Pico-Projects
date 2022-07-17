@@ -37,4 +37,15 @@ In conclusion I chose to use UART1 TX and UART1 RX for Serial2 communication whi
 I learned how to encode GPS NMEA data using the TinyGPS++ library. <br>
 I also learned how to use Universal Asynchronous Receiver-Transmitter (UART) on the Raspberry Pi Pico board for serial communication with the GT-U7 GPS module.
 
+## Screenshots
+
+<p align='left'>
+  <a href="#"><img src="https://github.com/Brian-S-Poon/Raspberry-Pi-Pico-Projects/blob/main/Raspberry%20Pi%20Pico%20GT-U7%20GPS%20Module/images/GPS_Module2.JPG" width=500 height=500 </a>
+</p>
+
+<p align='left'>
+  <a href="#"><img src="https://github.com/Brian-S-Poon/Raspberry-Pi-Pico-Projects/blob/main/Raspberry%20Pi%20Pico%20GT-U7%20GPS%20Module/images/GPS_Module3.JPG" width=500 height=500 </a>
+</p>
+
+
 
